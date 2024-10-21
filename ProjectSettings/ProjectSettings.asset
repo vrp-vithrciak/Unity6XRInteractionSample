@@ -244,8 +244,9 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
   - {fileID: -944628639613478452, guid: 60576623fb27a497f94096ae6ee59ff5, type: 3}
-  - {fileID: 8953753032051852477, guid: 4c1640683c539c14080cfd43fbeffbda, type: 2}
   - {fileID: 11400000, guid: 290a6e6411d135049940bec2237b8938, type: 2}
+  - {fileID: 8953753032051852477, guid: 4c1640683c539c14080cfd43fbeffbda, type: 2}
+  - {fileID: -3341215505679232334, guid: 0b86003202c6fc74ca8610249fa6acde, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -954,7 +955,10 @@ PlayerSettings:
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   webWasm2023: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
+    Standalone: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
+    Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
