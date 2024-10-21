@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 2e72a76db2572184ba807091fe4e4d82, type: 3}
   m_Sun: {fileID: 397543235}
-  m_IndirectSpecularColor: {r: 0.43279806, g: 0.46160668, b: 0.61514974, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -4366,6 +4366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LensFlareData: {fileID: 11400000, guid: 69ffd98bf7a2a4bf9a1217c6d30c381d, type: 2}
+  version: 0
   intensity: 1
   maxAttenuationDistance: 100
   maxAttenuationScale: 100
@@ -4444,6 +4445,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   useOcclusion: 1
   useBackgroundCloudOcclusion: 0
+  environmentOcclusion: 0
   useWaterOcclusion: 0
   occlusionRadius: 0.1
   sampleCount: 1
