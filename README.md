@@ -3,11 +3,13 @@
 Unity 6000.0.23f1 LTS
 + Android build support
 
-Assets/Samples/XRInteraction
+Demo scene at:
+Assets/Samples/XR Interaction Toolkit/3.0.6/Starter Assets/DemoScene
 
-connect hmd
-allow usb debugging
-
-build&run
+- switch build profile to android
+- add open scene
+- connect hmd (q2 tested)
+- allow usb debugging
+- build&run
 
 tested with Q2
