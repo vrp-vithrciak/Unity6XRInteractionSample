@@ -4,9 +4,11 @@
 - Unity 6000.0.23f1 LTS 
 - Android build support
 
-## Demo scene at:
-Assets/Samples/XR Interaction Toolkit/3.0.6/Starter Assets/DemoScene
-Assets/Samples/XR Interaction Toolkit/3.0.6/Hands Interaction Demo/HandsDemo
+## working demo scene at:
+- Assets/Samples/XR Interaction Toolkit/3.0.6/Hands Interaction Demo/HandsDemoScene
+or:
+- Assets/Samples/XR Interaction Toolkit/3.0.6/Starter Assets/DemoScene
+
 
 ## How to:
 - open scene
